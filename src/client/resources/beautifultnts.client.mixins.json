@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "com.falsepattern.beautifultnts.mixin.client",
+	"compatibilityLevel": "JAVA_17",
+	"client": [
+		"TntEntityRendererMixin",
+		"TntMinecartEntityRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

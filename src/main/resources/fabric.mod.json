@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "beautifultnts",
+	"version": "${version}",
+	"name": "Beautiful TNT",
+	"description": "Fancier TNT fuse blinking animation, just like in the trailers!",
+	"authors": [
+		"FalsePattern"
+	],
+	"contact": {
+		"homepage": "https://falsepattern.com/mc/",
+		"sources": "https://github.com/FalsePattern/BeautifulTNTs"
+	},
+	"license": "GPL-3.0-only",
+	"icon": "assets/beautifultnts/icon.png",
+	"environment": "*",
+	"entrypoints": {},
+	"mixins": [
+		{
+			"config": "beautifultnts.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"minecraft": [ "~1.19", "~1.20", "~1.21"],
+		"java": ">=17"
+	}
+}
